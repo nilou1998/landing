@@ -13,6 +13,7 @@ import Footer from "@/component/Footer/Footer";
 import FooterMedia from "@/component/Footer/FooterMedia";
 import React from "react";
 
+
 const page = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const page = () => {
       <BookingDemo />
       <Footer />
       <FooterMedia />
+
     </div>
   );
 };

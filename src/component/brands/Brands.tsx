@@ -5,7 +5,7 @@ import photo from "https://cdn.prod.website-files.com/632a253b6e9c1587d2b8853d/6
 const Brands = () => {
   return (
     <div className="bg-white w-full font-Lahzeh">
-      <div className="bg-pink-300 h-96 inline md:hidden">
+      <div className="h-96 inline md:hidden">
         <div className="w-1/2 mx-auto mb-4">
           <Image
             src="https://cdn.prod.website-files.com/632a253b6e9c1587d2b8853d/65c296379b2ed3380a7dabc7_logo-hubspot-featured.svg"
@@ -51,7 +51,7 @@ const Brands = () => {
             />
           </div>
         </div>
-        <div className="w-1/2 mx-auto">
+        <div className="w-1/2 mx-auto mb-4">
           <Image
             src="https://cdn.prod.website-files.com/632a253b6e9c1587d2b8853d/65c296379b2ed3380a7dabc7_logo-hubspot-featured.svg"
             width={200}

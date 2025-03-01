@@ -1,6 +1,8 @@
 import React from "react";
 
 function BookingDemo() {
+
+
   return (
     <div className="w-full sm:w-auto flex flex-col px-6 lg:px-80 mx-auto bg-white font-Lahzeh py-12">
       <div className="flex">

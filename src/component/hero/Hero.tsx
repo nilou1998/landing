@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import photo from "@/assent/photo/image-1.jpg";
+import photo2 from "@/assent/photo/background.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
@@ -17,6 +18,7 @@ const Hero = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
 
   if (!isClient) {
     return null;
@@ -220,22 +222,21 @@ const Hero = () => {
         </div>
         <div className="mt-6">
           {selectedTab === 1 && (
-             <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
+            <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
           )}
           {selectedTab === 2 && (
-            <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
+            <Image src={photo2} alt="slide 2" className="rounded-lg w-full" />
           )}
           {selectedTab === 3 && (
-             <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
-          )}
-          {selectedTab === 4 && (
             <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
           )}
+          {selectedTab === 4 && (
+            <Image src={photo2} alt="slide 1" className="rounded-lg w-full" />
+          )}
           {selectedTab === 5 && (
-          <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
+            <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
           )}
           {selectedTab === 6 && (
-       
             <Image src={photo} alt="slide 1" className="rounded-lg w-full" />
           )}
         </div>
